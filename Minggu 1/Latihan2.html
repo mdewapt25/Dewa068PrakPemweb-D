@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <header>
+            <h1><p style="background-color: rgb(228, 228, 228); padding: 10px; text-align:left;">Form Pendaftaran</p> 
+            </h1>    
+        </header>
+        
+            <form>
+                <label> Nama : </label>
+                    <input type="text" name="nama" required><br><br>
+
+                <label> Jenis Kelamin : </label>
+                    <p> </p>   
+                    <input type="radio" id="man" name=gender value="man">
+                        <label for="man">Pria</label>
+                            <input type="radio" id="woman" name=gender value="woman">
+                        <label for="woman">Wanita</label><br><br>
+                
+                <label> Domisili : </label>
+                    <input type="text" name="alamat" required><br><br>
+                
+                <label> Negara : </label>
+                    <select name="negara">
+                        <option value="indo">Indonesia</option>
+                        <option value="others">Lainnya</option>
+                    </select><br><br>
+                
+                <label> Email : </label>
+                    <input type="text" name="email" required><br><br>
+                
+                <label> Foto : </label>
+                    <p> </p>   
+                    <textarea id="comment" rows="2" cols="20"></textarea>
+                    <p> </p> 
+                    <input type="file" name="foto" required><br><br>
+        
+                <label> Comment : </label>
+                    <p> </p>   
+                    <textarea id="comment" rows="4" cols="50"></textarea>
+                    <p> </p>    
+                    <input type="submit" value="Submit">
+            </form>
+        
+        <footer> 
+            <p style="background-color: rgb(228, 228, 228); padding: 10px; text-align:left;">@CopyRight Dewa</p> 
+        </footer>
+</body>
+</html>
